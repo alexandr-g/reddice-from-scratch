@@ -1,7 +1,11 @@
 import React from 'react';
 
-export default () => {
-  return (
-    <h1>hi from Greetings component</h1>
-  );
+export default class Greetings extends React.Component {
+    render() {
+        return (
+          <div className="jumbotron">
+              <h1>Greetings</h1>
+          </div>
+        )
+    }
 }
